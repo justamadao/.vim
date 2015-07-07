@@ -2,6 +2,7 @@ if has('win32') || has('win64')
     set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
 
+set hlsearch
 set backspace=2
 set nocompatible
 set tabstop=4
